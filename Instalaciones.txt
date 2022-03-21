@@ -1,0 +1,2 @@
+// Módulos que se instalaran en el proyecto
+npm i express graphql express-graphql mongoose jsonwebtoken dotenv
