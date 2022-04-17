@@ -1,2 +1,7 @@
 // Módulos que se instalaran en el proyecto
 npm i express graphql express-graphql mongoose jsonwebtoken dotenv
+
+
+// Usar el token
+1. Generar token --> Login --> user: fazt@faztweb.com password: admin
+2. Usando token --> Extensión --> Request header = authorization value = Bearer token_generado

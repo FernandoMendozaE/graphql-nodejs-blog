@@ -9,11 +9,11 @@ const authenticate = (req, res, next) => {
     req.verifieUser = verified.user // ? agregamos el usuario a la request
     next()
   } catch (error) {
-    console.log(error)
+    console.error(error)
     next()
   }
 }
 
 module.exports = {
-  authenticate,
+  authenticate
 }
